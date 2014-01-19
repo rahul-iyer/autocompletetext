@@ -5,10 +5,10 @@
 <title>Auto Complete Input box</title>
 <link rel="stylesheet" type="text/css" href="jquery.autocomplete.css" />
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="jquery.autocomplete.js"></script>
+<script type="text/javascript" src="jquery.autocompletete.js"></script>
 <script>
 $(document).ready(function(){
- $("#suggestion").autocomplete("autocomplete.php", {
+ $("#suggestion").autocomplete("autocompletetext.php", {
 		selectFirst: true
 	});
 });
